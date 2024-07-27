@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculatar</title>
+</head>
+<body>
+    <section>
+        <div class="calculatar-body">
+            <div class="calculator-monitor">
+                <h2 id="display-number">
+                    
+                </h2>
+            </div>
+            <div class="dial-pad">
+                
+                    <ul class="line-one button">
+                        <button id="button-c">C</button>
+                        <button id="button-back"><</button>
+                        <button id="button-mod" onclick=inputNumber('button-mod')>%</button>
+                        <button id="button-div" onclick=inputNumber('button-div')>/</button>
+                        
+                    </ul>
+                    <ul class="line-one button">
+                       
+                        <button id="button-seven" onclick=inputNumber('button-seven')>7</button>
+                         <!-- <li id="button-seven"> 7 </li> -->
+                        <button id="button-eight" onclick=inputNumber('button-eight')>8</button>
+                        <button id="button-nine" onclick=inputNumber('button-nine')>9</button>
+                        <button id="button-mult" onclick=inputNumber('button-mult')>*</button>
+                    </ul>
+                    <ul class="line-two button">
+                        
+                        <button id="button-four" onclick=inputNumber('button-four')>4</button>
+                        <button id="button-five"onclick=inputNumber('button-five')>5</button>
+                        <button id="button-six"onclick=inputNumber('button-six')>6</button>
+                        <button id="button-sub"onclick=inputNumber('button-sub')>-</button>
+                    </ul>
+                    <ul class="line-three button">
+                        
+                        <button id="button-one"onclick=inputNumber('button-one')>1</button>
+                        <button id="button-two"onclick=inputNumber('button-two')>2</button>
+                        <button id="button-three"onclick=inputNumber('button-three')>3</button>
+                        <button id="button-add"onclick=inputNumber('button-add')>+</button>
+                    </ul>
+                    <ul class="line-four button">
+                        <button id="button-dubble-zero"onclick=inputNumber('button-dubble-zero')>00</button>
+                        <button id="button-zero"onclick=inputNumber('button-zero')>0</button>
+                        <button id="button-dot"onclick=inputNumber('button-dot')>.</button>
+                        <button id="button-equla">=</button>
+                    </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
